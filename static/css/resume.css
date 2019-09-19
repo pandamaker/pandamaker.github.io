@@ -19,7 +19,7 @@ html p {
     padding: 0;
 }
 .col-3 {
-    width: 32%;
+    width: 28%;
 }
 .col-3-abs {
     width: 290px;
@@ -31,10 +31,10 @@ html p {
     vertical-align: top;
 }
 .col-6 {
-    width: 48.5%;
+    width: 48%;
 }
 .col-9 {
-    width: 65%;
+    width: 60%;
 }
 .container {
     width: 1000px;
@@ -70,8 +70,8 @@ html p {
     background-image: url(../image/Group.png);
 }
 .peasonal-image {
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
 }
 .img-header .content {
     font-family: Courier;
@@ -144,7 +144,7 @@ section .title {
     font-size: 26px;
     color: #022643;
     letter-spacing: 3px;
-    width: 150px;
+    width: 200px;
     margin: 0 auto;
     text-align: center;
 }
@@ -160,8 +160,8 @@ section .title::after {
     left: -5px;
 }
 section .title::before {
-    top: -15px;
-    left: 90px;
+    top: 10px;
+    left: 200px;
 }
 section .title.project::after {
     content: url(../image/icon1.png)
@@ -272,7 +272,7 @@ section .title.about-me::before {
     vertical-align: top;
 }
 .company-logo {
-    margin: 20px 0 0 20px;
+    margin: 20px 0 0 10px;
     max-width: 250px;
 }
 .work-content p.create-time {
